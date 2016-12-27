@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Dictionary{
+public class Dictionary_1{
 	private final String[] unsorted = 
 	{"himaja","aamani","shivani","akhilesh","santhosh"};
 	private String[] sorted;
@@ -29,7 +29,7 @@ public class Dictionary{
 		}
 	}
 	public static void main(String[] args) {
-		Dictionary dy = new Dictionary();
+		Dictionary_1 dy = new Dictionary_1();
 		String[] reverseUnsorted = dy.reverse();
 		dy.diction(reverseUnsorted);
 		

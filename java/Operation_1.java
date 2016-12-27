@@ -1,12 +1,12 @@
 /*Write a program that accepts two numbers and a operator like (+,-,*, /) as command line arguments and perform the appropriate operation indicated by the operator.*/
 import java.util.Scanner;
 
-public class Operation{
+public class Operation_1{
 	double operand1;
 	double operand2;
 	String operator;
 	double result;
-	public Operation(
+	public Operation_1(
 		double operand1,
 		double operand2,
 		String operator){
@@ -41,7 +41,7 @@ public class Operation{
 		double operand2 = scanner.nextDouble();
 		System.out.println("Enter operator");
 		String operator = scanner.next();
-		Operation op = new Operation(operand1,operand2,operator);
+		Operation_1 op = new Operation_1(operand1,operand2,operator);
 		op.getResult();
 
 		

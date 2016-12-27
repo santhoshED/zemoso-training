@@ -3,10 +3,10 @@
 import java.util.Scanner;
 import java.util.*;
 
-public class Bingo{
+public class Bingo_1{
 	public int[] thearray = {5,10,15,20,25};
 	int number;
-	public Bingo(int num){
+	public Bingo_1(int num){
 		if (num >1 && num<50)
 			this.number = num;
 	}
@@ -23,7 +23,7 @@ public class Bingo{
 		System.out.println("Enter the number:");
 		Scanner scanner = new Scanner(System.in);
 		int number = scanner.nextInt();
-		Bingo bg = new Bingo(number);
+		Bingo_1 bg = new Bingo_1(number);
 		bg.checkForNumber();
 		}
 	}

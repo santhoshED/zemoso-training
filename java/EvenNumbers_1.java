@@ -1,9 +1,9 @@
 /* Write a program to list all even numbers less than or equal to the number n.  The value of n is given through command line as input to the program.*/
 
 import java.util.Scanner;
-	public class EvenNumbers{
+	public class EvenNumbers_1{
 		private int num;
-		public EvenNumbers(int number){
+		public EvenNumbers_1(int number){
 			num = number;
 		}
 		public void printEven(){
@@ -16,7 +16,7 @@ import java.util.Scanner;
 		System.out.println("Enter the number");
 		int number = scanner.nextInt();
 
-		EvenNumbers en = new EvenNumbers(number);
+		EvenNumbers_1 en = new EvenNumbers_1(number);
 		en.printEven();
 	}
 	}

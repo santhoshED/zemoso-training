@@ -2,7 +2,7 @@
 import java.util.Scanner;
 import java.util.*;
 
-public class IntegerArray{
+public class IntegerArray_1{
 	List<Integer> myList = new ArrayList<Integer>();
 	
 	public void getNumbers(){
@@ -29,7 +29,7 @@ public class IntegerArray{
 	}
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		IntegerArray InAr = new IntegerArray();
+		IntegerArray_1 InAr = new IntegerArray_1();
 		while(true){
 		System.out.println("Enter the number :");
 		int number = scanner.nextInt();
