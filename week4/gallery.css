@@ -1,0 +1,31 @@
+.wrapper{
+	display: flex;
+	margin: 0 auto;
+	background-image: url("background.jpg");
+	height:650px;
+	flex-direction:column;
+
+}
+.navigation-bar{
+	display: flex;
+	width:60%;
+	height:40px;
+	justify-content:space-around;
+	align-items: center;
+	margin:0 auto;
+	background-color:rgba(180, 180, 180, 0.3);
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.active{
+	color:white;
+}
+.body{
+	display:flex;
+	width:60%;
+	height:610px;
+	margin:0 auto;
+	flex-wrap:wrap;
+}

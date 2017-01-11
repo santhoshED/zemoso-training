@@ -1,0 +1,42 @@
+.wrapper{
+	display: flex;
+	margin: 0 auto;
+	background-image: url("background.jpg");
+	height:650px;
+	flex-direction:column;
+
+}
+.navigation-bar{
+	display: flex;
+	width:60%;
+	height:40px;
+	justify-content:space-around;
+	align-items: center;
+	margin:0 auto;
+	background-color:rgba(180, 180, 180, 0.3);
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.active{
+	color:white;
+}
+.body{
+	display:flex;
+	width:60%;
+	justify-content:space-around;
+	align-self:center;
+	background-color:rgba(0, 0, 0, 0.6); 
+	padding-top:50px;
+	margin-top: 150px;
+}
+.address{
+	color:#e6e6e6;
+}
+.social-network{
+	color: #e6e6e6;
+	text-align: right;
+	align-self:flex-end;
+}
+
